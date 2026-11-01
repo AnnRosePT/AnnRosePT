@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/ann-rose-hero.png" width="100%" alt="Hi, I'm Ann Rose P T – Computer Science Engineering Student. 3D avatar of Ann waving in a purple cap and hoodie." />
+  <img src="./assets/ann-rose-hero.svg" width="100%" alt="Hi, I'm Ann Rose P T – Computer Science Engineering Student. 3D avatar of Ann waving in a purple cap and hoodie." />
 </p>
 
 <h3 align="center">AI/ML &nbsp;|&nbsp; Software Development &nbsp;|&nbsp; Cybersecurity</h3>
