@@ -8,47 +8,52 @@
 <style>
   @font-face{font-family:PX;src:url(fonts/pixelify-sans-latin-400-normal.woff2) format("woff2")}
   @font-face{font-family:PX;font-weight:700;src:url(fonts/pixelify-sans-latin-700-normal.woff2) format("woff2")}
-  :root{--ink:#090909;--panel:#1a1a1a;--edge:#090909;--hi:#7c7c7c;--lo:#1f1f1f;--lav:#cfcfcf;--gold:#d6d6d6;--splash:#f3f3f3}
+  :root{--ink:#0c0619;--panel:#211538;--edge:#0b0716;--hi:#9a6ad6;--lo:#2a1748;--lav:#d8c9ed;--gold:#ffd84a;--splash:#ffff55}
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{height:100%}
-  body{background:radial-gradient(900px 600px at 70% 40%,rgba(94,94,94,.35),transparent 70%),linear-gradient(180deg,#090909,#131313 55%,#1f1f1f);
-       color:#ffffff;font-family:PX,"Courier New",monospace;min-height:100svh;overflow-x:hidden}
+  body{background:radial-gradient(900px 600px at 70% 40%,rgba(122,76,196,.35),transparent 70%),linear-gradient(180deg,#0c0619,#1a0d33 55%,#2b1658);
+       color:#fff;font-family:PX,"Courier New",monospace;min-height:100svh;overflow-x:hidden}
+  /* black & white layer over the violet page; a hole follows the cursor and lets the violet through */
+  #mono{position:fixed;inset:0;z-index:5;pointer-events:none;background:#808080;mix-blend-mode:saturation;
+    --mx:-999px;--my:-999px;--r:0px;
+    -webkit-mask-image:radial-gradient(circle var(--r) at var(--mx) var(--my),transparent 0 60%,#000 100%);
+            mask-image:radial-gradient(circle var(--r) at var(--mx) var(--my),transparent 0 60%,#000 100%)}
   canvas#fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
   .ground{position:fixed;left:0;right:0;bottom:0;height:56px;z-index:0;image-rendering:pixelated;
-    background:repeating-linear-gradient(90deg,#454545 0 28px,#5e5e5e 28px 56px,#2d2d2d 56px 84px,#535353 84px 112px);
-    box-shadow:inset 0 6px 0 #7c7c7c, inset 0 -6px 0 #1f1f1f}
+    background:repeating-linear-gradient(90deg,#5c35a0 0 28px,#7a4cc4 28px 56px,#3d2363 56px 84px,#6a43b4 84px 112px);
+    box-shadow:inset 0 6px 0 #9a6ad6, inset 0 -6px 0 #2a1748}
   main{position:relative;z-index:1;max-width:1080px;margin:0 auto;padding:56px 20px 110px;display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;min-height:100svh}
-  .logo{font-weight:700;font-size:clamp(40px,6.2vw,80px);white-space:nowrap;line-height:.95;color:#e1e1e1;letter-spacing:1px;position:relative;
-    text-shadow:0 6px 0 #5e5e5e,0 10px 0 #2d2d2d,0 13px 0 #0e0e0e}
-  .splash{position:absolute;right:-6px;top:-30px;font-size:clamp(18px,2.4vw,26px);color:var(--splash);text-shadow:3px 3px 0 #3c3c3c;
+  .logo{font-weight:700;font-size:clamp(40px,6.2vw,80px);white-space:nowrap;line-height:.95;color:#e9dcff;letter-spacing:1px;position:relative;
+    text-shadow:0 6px 0 #7a4cc4,0 10px 0 #3d2363,0 13px 0 #120a24}
+  .splash{position:absolute;right:-6px;top:-30px;font-size:clamp(18px,2.4vw,26px);color:var(--splash);text-shadow:3px 3px 0 #3f3f15;
     transform:rotate(-14deg);animation:pulse .55s ease-in-out infinite alternate;white-space:nowrap}
   @keyframes pulse{from{transform:rotate(-14deg) scale(.94)}to{transform:rotate(-14deg) scale(1.06)}}
-  .sub{font-weight:700;font-size:clamp(18px,2.2vw,24px);margin:30px 0 8px;text-shadow:3px 3px 0 #1f1f1f}
-.pr{color:#7c7c7c}
-  .caret{display:inline-block;width:.55em;height:.9em;margin-left:4px;vertical-align:-.08em;background:#e1e1e1;animation:blink 1s step-end infinite}
+  .sub{font-weight:700;font-size:clamp(18px,2.2vw,24px);margin:30px 0 8px;text-shadow:3px 3px 0 #2a1748}
+.pr{color:#9a6ad6}
+  .caret{display:inline-block;width:.55em;height:.9em;margin-left:4px;vertical-align:-.08em;background:#e9dcff;animation:blink 1s step-end infinite}
   @keyframes blink{50%{opacity:0}}
   .sub{min-height:1.4em}
-  .sub2{color:#c0c0c0;font-size:17px;text-shadow:2px 2px 0 #0e0e0e}
+  .sub2{color:#cbb8ef;font-size:17px;text-shadow:2px 2px 0 #120a24}
   .toast{display:flex;gap:16px;align-items:center;background:var(--panel);margin:26px 0;padding:14px 18px;max-width:520px;
-    box-shadow:inset 0 0 0 3px var(--edge),inset 0 0 0 6px #6d6d6d,inset 0 0 0 9px #2d2d2d}
-  .toast .ic{width:52px;height:52px;flex:none;background:#454545;display:grid;place-items:center;font-size:28px;
+    box-shadow:inset 0 0 0 3px var(--edge),inset 0 0 0 6px #8a5cc5,inset 0 0 0 9px #3a2363}
+  .toast .ic{width:52px;height:52px;flex:none;background:#5c35a0;display:grid;place-items:center;font-size:28px;
     clip-path:polygon(16% 0,84% 0,100% 16%,100% 84%,84% 100%,16% 100%,0 84%,0 16%)}
   .toast b{display:block;color:var(--gold);font-size:14px;margin-bottom:2px}
   .toast span{font-size:16px;line-height:1.35}
   .btns{display:grid;grid-template-columns:repeat(2,minmax(0,220px));gap:10px}
-  .btn{display:flex;align-items:center;justify-content:center;height:46px;color:#ffffff;text-decoration:none;font-weight:700;font-size:17px;background:#454545;
-    text-shadow:2px 2px 0 #1f1f1f;box-shadow:inset 0 0 0 3px var(--edge),inset 4px 4px 0 3px var(--hi),inset -4px -4px 0 3px var(--lo);transition:transform .08s}
-  .btn:hover,.btn:focus-visible{background:#5e5e5e;outline:none;box-shadow:inset 0 0 0 3px #ffffff,inset 4px 4px 0 3px #9a9a9a,inset -4px -4px 0 3px var(--lo)}
+  .btn{display:flex;align-items:center;justify-content:center;height:46px;color:#fff;text-decoration:none;font-weight:700;font-size:17px;background:#5c35a0;
+    text-shadow:2px 2px 0 #2a1748;box-shadow:inset 0 0 0 3px var(--edge),inset 4px 4px 0 3px var(--hi),inset -4px -4px 0 3px var(--lo);transition:transform .08s}
+  .btn:hover,.btn:focus-visible{background:#7a4cc4;outline:none;box-shadow:inset 0 0 0 3px #fff,inset 4px 4px 0 3px #b48ae8,inset -4px -4px 0 3px var(--lo)}
   .btn:active{transform:translateY(2px)}
-  .hint{margin-top:18px;color:#868686;font-size:14px}
+  .hint{margin-top:18px;color:#8f7fb3;font-size:14px}
 
   /* 3D card */
   .stage{perspective:1100px;display:flex;justify-content:center}
   .card{position:relative;width:min(360px,74vw);aspect-ratio:4/5;transform-style:preserve-3d;cursor:pointer;
     transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .45s cubic-bezier(.2,.7,.2,1)}
   .card.live{transition:transform .08s linear}
-  .face{position:absolute;inset:0;padding:12px;background:#454545;
-    box-shadow:inset 6px 6px 0 var(--hi),inset -6px -6px 0 var(--lo),0 0 0 5px #0e0e0e,0 34px 50px -18px rgba(0,0,0,.7)}
+  .face{position:absolute;inset:0;padding:12px;background:#5c35a0;
+    box-shadow:inset 6px 6px 0 var(--hi),inset -6px -6px 0 var(--lo),0 0 0 5px #120a24,0 34px 50px -18px rgba(0,0,0,.7)}
   .art{position:relative;width:100%;height:100%;overflow:hidden}
   .art img.bg{width:100%;height:100%;display:block;object-fit:cover}
   .hand{position:absolute;animation:wave 4s ease-in-out 1s infinite}
@@ -58,12 +63,12 @@
   .glare{position:absolute;inset:12px;pointer-events:none;opacity:var(--go,0);transition:opacity .3s;
     background:radial-gradient(circle at var(--gx,50%) var(--gy,30%),rgba(255,255,255,.28),transparent 45%);mix-blend-mode:soft-light}
   .tag{position:absolute;pointer-events:none;font-weight:700;font-size:15px;padding:7px 11px;background:var(--panel);
-    box-shadow:inset 0 0 0 3px var(--edge),inset 0 0 0 6px #2f2f2f;text-shadow:2px 2px 0 #0e0e0e}
-  .t1{right:-18px;top:22px;transform:translateZ(90px);color:#c4c4c4}
-  .t2{left:-26px;bottom:88px;transform:translateZ(70px);color:#d2d2d2}
-  .t3{left:16px;right:16px;bottom:-22px;transform:translateZ(110px);text-align:center;color:#ffffff;font-size:18px}
-  .xp{position:absolute;left:16px;right:16px;bottom:-40px;height:10px;transform:translateZ(110px);background:#090909;box-shadow:0 0 0 2px #090909}
-  .xp i{position:absolute;inset:2px;width:calc(var(--xp,0) * 1%);background:linear-gradient(90deg,#7c7c7c,#b7b7b7);transition:width .25s}
+    box-shadow:inset 0 0 0 3px var(--edge),inset 0 0 0 6px #5a12d6;text-shadow:2px 2px 0 #120a24}
+  .t1{right:-18px;top:22px;transform:translateZ(90px);color:#d6b8ff}
+  .t2{left:-26px;bottom:88px;transform:translateZ(70px);color:#7fe7f2}
+  .t3{left:16px;right:16px;bottom:-22px;transform:translateZ(110px);text-align:center;color:#fff;font-size:18px}
+  .xp{position:absolute;left:16px;right:16px;bottom:-40px;height:10px;transform:translateZ(110px);background:#0b0716;box-shadow:0 0 0 2px #0b0716}
+  .xp i{position:absolute;inset:2px;width:calc(var(--xp,0) * 1%);background:linear-gradient(90deg,#9a6ad6,#cfa8ff);transition:width .25s}
 
   @media (max-width:860px){
     main{grid-template-columns:1fr;gap:34px;padding-top:40px;text-align:center}
@@ -79,13 +84,14 @@
 </head>
 <body>
 <canvas id="fx" aria-hidden="true"></canvas>
+<div id="mono" aria-hidden="true"></div>
 <div class="ground" aria-hidden="true"></div>
 <main>
   <section>
     <h1 class="logo">ANN ROSE P T<span class="splash">Code + Design!</span></h1>
     <p class="sub" aria-label="AI/ML &amp; Software Developer, UI/UX &amp; Poster Designer, Full-Stack App Builder"><span class="pr">&gt; </span><span id="type">AI/ML &amp; Software Developer</span><i class="caret"></i></p>
     <p class="sub2">B.Tech CSE &middot; Christ College of Engineering, Kerala</p>
-    <div class="toast"><div class="ic" aria-hidden="true">&#5f5f5f;</div>
+    <div class="toast"><div class="ic" aria-hidden="true">&#127942;</div>
       <div><b>Challenge Complete!</b><span>1st Runner-Up &middot; PFRDA National Hackathon, IIT Kanpur</span></div></div>
     <nav class="btns">
       <a class="btn" href="https://github.com/AnnRosePT">GitHub</a>
@@ -93,7 +99,7 @@
       <a class="btn" href="https://www.linkedin.com/in/ann-rose-pt">LinkedIn</a>
       <a class="btn" href="mailto:annrosept007@gmail.com">Email</a>
     </nav>
-    <p class="hint" id="hint">Move your cursor &mdash; the particles follow you. Click the card to say hi.</p>
+    <p class="hint" id="hint">Move your cursor to bring the colour back. Hover the card to light it all up; click to say hi.</p>
   </section>
 
   <div class="stage">
@@ -141,6 +147,22 @@
       setTimeout(step, wait);
     })();
   }
+  // ---------- black & white until the cursor brings the violet back
+  const mono = document.getElementById('mono');
+  let R = 0, Rt = 0, mx = -999, my = -999;
+  function colorAt(x, y, overCard) { mx = x; my = y; Rt = overCard ? Math.hypot(innerWidth, innerHeight) * 1.2 : 240; }
+  function fadeOut() { Rt = 0; }
+  (function grow() {
+    R += (Rt - R) * .12;
+    mono.style.setProperty('--r', R.toFixed(1) + 'px');
+    mono.style.setProperty('--mx', mx + 'px'); mono.style.setProperty('--my', my + 'px');
+    requestAnimationFrame(grow);
+  })();
+  addEventListener('pointermove', e => colorAt(e.clientX, e.clientY, card.contains(e.target)));
+  document.addEventListener('pointerleave', fadeOut);
+  addEventListener('touchmove', e => { const t = e.touches[0]; colorAt(t.clientX, t.clientY, card.contains(document.elementFromPoint(t.clientX, t.clientY))); }, { passive: true });
+  addEventListener('touchend', () => setTimeout(fadeOut, 600));
+  addEventListener('blur', fadeOut);
   // ---------- 3D tilt
   const MAX = 16;
   function tilt(nx, ny) {
@@ -155,7 +177,7 @@
   // ---------- portal particles (canvas)
   const cv = document.getElementById('fx'), ctx = cv.getContext('2d');
   let W = 0, H = 0, DPR = Math.min(2, devicePixelRatio || 1);
-  const COLS = ['#b7b7b7', '#9a9a9a', '#bcbcbc', '#7c7c7c', '#ffffff', '#5e5e5e'];
+  const COLS = ['#cfa8ff', '#b48ae8', '#e9a8ff', '#9a6ad6', '#ffffff', '#7a4cc4'];
   const P = [];
   const mouse = { x: -9999, y: -9999, on: false };
   function resize() {
@@ -225,7 +247,7 @@
     if (!reduce) for (let i = 0; i < 70; i++) spawn(e.clientX, e.clientY, true);
     seen = Math.min(100, seen + 15); xp.parentElement.style.setProperty('--xp', seen.toFixed(0));
   });
-  if (coarse) document.getElementById('hint').textContent = 'Drag across the screen — the particles follow. Tap the card to say hi.';
+  if (coarse) document.getElementById('hint').textContent = 'Drag across the screen to bring the colour back. Tap the card to say hi.';
 })();
 </script>
 </body>
