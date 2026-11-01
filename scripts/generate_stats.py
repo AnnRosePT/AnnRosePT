@@ -22,9 +22,9 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets" / "stats"
 FONT_DIR = Path(__file__).resolve().parent / "fonts"
 
-PANEL, DARK, LIGHT, EDGE = "#211538", "#120a22", "#3f2a6e", "#0b0716"
-WHITE, LAV, MUTED, GOLD = "#FFFFFF", "#D8C9ED", "#9A86C4", "#FFD84A"
-LANG_COLORS = ["#9338C8", "#C69AF5", "#6A3FC4", "#E9DCFF", "#4B2A99", "#B07CE8"]
+PANEL, DARK, LIGHT, EDGE = "#1a1a1a", "#0d0d0d", "#333333", "#090909"
+WHITE, LAV, MUTED, GOLD = "#ffffff", "#cfcfcf", "#8f8f8f", "#d6d6d6"
+LANG_COLORS = ["#ffffff", "#bdbdbd", "#8a8a8a", "#5e5e5e", "#d9d9d9", "#3c3c3c"]
 
 
 def gql(query, variables):
@@ -119,7 +119,7 @@ def card(w, h, title, body):
   <rect x="4" y="4" width="{w-8}" height="{h-8}" fill="{PANEL}"/>
   <rect x="4" y="4" width="{w-8}" height="5" fill="{LIGHT}"/><rect x="4" y="4" width="5" height="{h-8}" fill="{LIGHT}"/>
   <rect x="4" y="{h-9}" width="{w-8}" height="5" fill="{DARK}"/><rect x="{w-9}" y="4" width="5" height="{h-8}" fill="{DARK}"/>
-  <text x="26" y="44" fill="#2a1748" font-size="22" font-weight="700">{escape(title)}</text>
+  <text x="26" y="44" fill="#1f1f1f" font-size="22" font-weight="700">{escape(title)}</text>
   <text x="24" y="42" fill="{WHITE}" font-size="22" font-weight="700">{escape(title)}</text>
 {body}
 </svg>
@@ -141,7 +141,7 @@ def overview_svg(s):
         v = f"{value:,}" if isinstance(value, int) else value
         color = GOLD if "streak" in label else WHITE
         body.append(
-            f'  <rect x="26" y="{y-11}" width="8" height="8" fill="#9a6ad6"/>\n'
+            f'  <rect x="26" y="{y-11}" width="8" height="8" fill="#7c7c7c"/>\n'
             f'  <text x="44" y="{y}" fill="{LAV}" font-size="16">{label}</text>\n'
             f'  <text x="394" y="{y}" fill="{color}" font-size="16" font-weight="700" text-anchor="end">{v}</text>'
         )
@@ -152,14 +152,14 @@ def languages_svg(langs):
     top = sorted(langs.items(), key=lambda kv: kv[1], reverse=True)[:6]
     total = sum(v for _, v in top) or 1
     # XP-bar style: segmented, blocky
-    body = ['  <rect x="24" y="62" width="372" height="18" fill="#0b0716"/>']
+    body = ['  <rect x="24" y="62" width="372" height="18" fill="#090909"/>']
     x = 27.0
     for i, (name, v) in enumerate(top):
         w = 366 * v / total
         body.append(f'  <rect x="{x:.1f}" y="65" width="{max(w, 2):.1f}" height="12" fill="{LANG_COLORS[i]}"/>')
         x += w
     for i in range(1, 18):
-        body.append(f'  <rect x="{24 + i * 372 / 18:.1f}" y="65" width="2" height="12" fill="#0b0716" opacity=".55"/>')
+        body.append(f'  <rect x="{24 + i * 372 / 18:.1f}" y="65" width="2" height="12" fill="#090909" opacity=".55"/>')
     for i, (name, v) in enumerate(top):
         col, row = i % 2, i // 2
         cx, cy = 26 + col * 186, 118 + row * 34
