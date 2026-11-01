@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="200" viewBox="0 0 420 200" role="img" aria-label="Most-Used Languages">
+  <defs>
+    <linearGradient id="glow" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9338C8" stop-opacity="0.30"/>
+      <stop offset="0.55" stop-color="#382078" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#101014" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="419" height="199" rx="16" fill="#140C26" stroke="#3B2A66"/>
+  <rect x="0.5" y="0.5" width="419" height="199" rx="16" fill="url(#glow)"/>
+  <text x="28" y="42" fill="#FFFFFF" font-family="'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="0.3">Most-Used Languages</text>
+  <clipPath id="bar"><rect x="28" y="62" width="364" height="10" rx="5"/></clipPath>
+  <g clip-path="url(#bar)">
+    <rect x="28.00" y="62" width="197.06" height="10" fill="#9338C8"/>
+    <rect x="224.56" y="62" width="72.57" height="10" fill="#C69AF5"/>
+    <rect x="296.63" y="62" width="63.11" height="10" fill="#6A3FC4"/>
+    <rect x="359.24" y="62" width="15.79" height="10" fill="#E9DCFF"/>
+    <rect x="374.53" y="62" width="14.70" height="10" fill="#4B2A99"/>
+    <rect x="388.72" y="62" width="3.78" height="10" fill="#B07CE8"/>
+  </g>
+  <circle cx="34" cy="103" r="5" fill="#9338C8"/>
+  <text x="48" y="108" fill="#D8C9ED" font-family="'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14">C <tspan fill="#9A86C4">54.0%</tspan></text>
+  <circle cx="220" cy="103" r="5" fill="#C69AF5"/>
+  <text x="234" y="108" fill="#D8C9ED" font-family="'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14">HTML <tspan fill="#9A86C4">19.8%</tspan></text>
+  <circle cx="34" cy="137" r="5" fill="#6A3FC4"/>
+  <text x="48" y="142" fill="#D8C9ED" font-family="'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14">TypeScript <tspan fill="#9A86C4">17.2%</tspan></text>
+  <circle cx="220" cy="137" r="5" fill="#E9DCFF"/>
+  <text x="234" y="142" fill="#D8C9ED" font-family="'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14">Python <tspan fill="#9A86C4">4.2%</tspan></text>
+  <circle cx="34" cy="171" r="5" fill="#4B2A99"/>
+  <text x="48" y="176" fill="#D8C9ED" font-family="'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14">JavaScript <tspan fill="#9A86C4">3.9%</tspan></text>
+  <circle cx="220" cy="171" r="5" fill="#B07CE8"/>
+  <text x="234" y="176" fill="#D8C9ED" font-family="'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14">CSS <tspan fill="#9A86C4">0.9%</tspan></text>
+</svg>

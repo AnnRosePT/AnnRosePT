@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="40" viewBox="0 0 101 40" role="img" aria-label="Email">
+  <rect x="0.75" y="0.75" width="99.5" height="38.5" rx="19.25" fill="#1B1230" stroke="#4B2F86" stroke-width="1.5"/>
+  <g transform="translate(17 11) scale(0.75)"><g fill="none" stroke="#C69AF5" stroke-width="1.8" stroke-linejoin="round"><rect x="2" y="4.5" width="20" height="15" rx="2.5"/><path d="M3 6l9 7 9-7"/></g></g>
+  <text x="45" y="25" fill="#FFFFFF" font-family="'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500">Email</text>
+</svg>

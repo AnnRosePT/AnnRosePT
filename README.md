@@ -1,48 +1,129 @@
-<a href="https://annrosept.github.io/AnnRosePT/index.html"><img src="./assets/px/banner.svg" width="100%" alt="Ann Rose P T. Software developer, UI/UX and poster designer. 1st Runner-Up, PFRDA Hackathon at IIT Kanpur." /></a>
-
-<img src="./assets/px/about.png" width="100%" alt="Who I am: CSE student at Christ College of Engineering, Irinjalakuda, who writes code and designs. What I do: full-stack and AI-powered tools; Data Analytics Intern at VOIS and Python Developer Intern at Infosys Springboard. The design side: Design Team Lead at IEEE EMBS CCE, design team of the UPDATE newsletter, posters and Figma UI/UX. Vision: building technology, exploring possibilities, creating impact." />
-
-<img src="./assets/px/bar-links.png" width="100%" alt="Find me" />
-
-<div align="center">
-<table>
-  <tr><th align="center">LinkedIn</th><th align="center">GitHub</th><th align="center">Gmail</th><th align="center">Portfolio</th><th align="center">3D Card</th></tr>
-  <tr><td align="center"><a href="https://www.linkedin.com/in/ann-rose-pt"><img src="https://skillicons.dev/icons?theme=dark&i=linkedin" width="44" height="44" alt="LinkedIn" /></a></td><td align="center"><a href="https://github.com/AnnRosePT"><img src="https://skillicons.dev/icons?theme=dark&i=github" width="44" height="44" alt="GitHub" /></a></td><td align="center"><a href="mailto:annrosept007@gmail.com"><img src="https://skillicons.dev/icons?theme=dark&i=gmail" width="44" height="44" alt="Gmail" /></a></td><td align="center"><a href="https://ann-rose-pt007.vercel.app"><img src="https://skillicons.dev/icons?theme=dark&i=vercel" width="44" height="44" alt="Portfolio" /></a></td><td align="center"><a href="https://annrosept.github.io/AnnRosePT/index.html"><img src="./assets/px/icon-3d.svg" width="44" height="44" alt="3D Card" /></a></td></tr>
-</table>
-</div>
-
-<img src="./assets/px/bar-contrib.png" width="100%" alt="Contributions" />
-
-<a href="https://github.com/AnnRosePT"><img src="./profile-3d-contrib/profile-ann.svg" width="100%" alt="3D contribution calendar for AnnRosePT" /></a>
-
-<img src="./assets/px/bar-work.png" width="100%" alt="Selected work" />
+<a href="https://annrosept.github.io/AnnRosePT/index.html">
+  <img src="./assets/hero.svg" width="100%" alt="Hello, I'm Ann Rose P T. AI/ML and Software Developer, UI/UX Designer. B.Tech CSE, Christ College of Engineering, Kerala." />
+</a>
 
 <p align="center">
-  <a href="https://github.com/AnnRosePT/placed"><img src="./assets/px/card-placementai.png" width="49%" alt="placementai" /></a>
-  <a href="https://anavandi-connect.vercel.app"><img src="./assets/px/card-anavandi-connect.png" width="49%" alt="anavandi-connect" /></a>
+  <a href="https://ann-rose-pt007.vercel.app"><img src="./assets/links/portfolio.svg" height="34" alt="Portfolio" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/ann-rose-pt"><img src="./assets/links/linkedin.svg" height="34" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:annrosept007@gmail.com"><img src="./assets/links/email.svg" height="34" alt="Email" /></a>&nbsp;
+  <a href="https://annrosept.github.io/AnnRosePT/index.html"><img src="./assets/links/card3d.svg" height="34" alt="Interactive 3D card" /></a>
+</p>
+
+<br/>
+
+## About
+
+- B.Tech Computer Science and Engineering at Christ College of Engineering, Irinjalakuda (2024–2028).
+- Building AI/ML and software solutions, from GenAI assistants to machine-learning web apps.
+- Developing full-stack applications with React, Spring Boot, Django and FastAPI.
+- Designing UI/UX and visual communication; Design Team Lead at IEEE EMBS, CCE.
+- Exploring cybersecurity and innovation through hands-on labs, hackathons and a published patent.
+
+<br/>
+
+<img src="./assets/highlight.png" width="100%" alt="Featured achievement: 1st Runner-Up, PFRDA National Hackathon, IIT Kanpur, for NPS Saathi, an AI-native multilingual pension copilot." />
+
+<br/>
+
+## Tech Stack
+
+<table>
+  <tr>
+    <td width="140"><b>Programming</b></td>
+    <td><img src="https://skillicons.dev/icons?i=py,c,cpp,java,js&theme=dark" height="38" alt="Python, C, C++, Java, JavaScript" /></td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,html,css&theme=dark" height="38" alt="React, HTML, CSS" /></td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=spring,fastapi,django&theme=dark" height="38" alt="Spring Boot, FastAPI, Django" /></td>
+  </tr>
+  <tr>
+    <td><b>AI / ML</b></td>
+    <td><img src="https://skillicons.dev/icons?i=sklearn&theme=dark" height="38" alt="Scikit-learn" />&nbsp; <code>NumPy</code> <code>Pandas</code></td>
+  </tr>
+  <tr>
+    <td><b>Tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=git,github,linux,mysql,figma&theme=dark" height="38" alt="Git, GitHub, Linux, MySQL, Figma" /></td>
+  </tr>
+</table>
+
+<br/>
+
+## Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/AnnRosePT/anavandi-connect"><img src="./assets/projects/anavandi-connect.png" width="100%" alt="Anavandi Connect preview" /></a>
+      <h3>Anavandi Connect</h3>
+      <p>AI-powered digitization of public transport timetables.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code></p>
+      <a href="https://github.com/AnnRosePT/anavandi-connect">Repository</a> · <a href="https://anavandi-connect.vercel.app">Live demo</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/AnnRosePT/Aquasense"><img src="./assets/projects/aquasense.png" width="100%" alt="AquaSense preview" /></a>
+      <h3>AquaSense</h3>
+      <p>STM32 water-level monitor streaming live data to a web dashboard with alerts.</p>
+      <p><code>Embedded C</code> <code>STM32 HAL</code> <code>React</code> <code>Python</code></p>
+      <a href="https://github.com/AnnRosePT/Aquasense">Repository</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/AnnRosePT/placed"><img src="./assets/projects/placementai.png" width="100%" alt="PlacementAI preview" /></a>
+      <h3>PlacementAI</h3>
+      <p>Student placement prediction with an explainable scikit-learn model and analytics.</p>
+      <p><code>React</code> <code>Flask</code> <code>Scikit-learn</code> <code>Pandas</code></p>
+      <a href="https://github.com/AnnRosePT/placed">Repository</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/AnnRosePT/DBT-GUARD"><img src="./assets/projects/dbt-guard.png" width="100%" alt="DBT-GUARD preview" /></a>
+      <h3>DBT-GUARD</h3>
+      <p>Flags Direct Benefit Transfer payments likely to fail before disbursement.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>Vite</code></p>
+      <a href="https://github.com/AnnRosePT/DBT-GUARD">Repository</a> · <a href="https://dbt-guard.vercel.app">Live demo</a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+## Patents, Certifications & Achievements
+
+<table>
+  <tr>
+    <td width="140"><b>Patent</b></td>
+    <td><i>Guardian Wing: Collaborative Fleet Intelligence System</i><br/>Indian patent application No. 202641048328 · Status: Published · Co-inventor</td>
+  </tr>
+  <tr>
+    <td><b>Hackathons</b></td>
+    <td>Top 10 of 300+ teams, She Builds Tech 3.0, Kerala Startup Mission (2026)<br/>Top 32 of 400+ teams, ANAVANDI Hackathon 2026</td>
+  </tr>
+  <tr>
+    <td><b>Innovation</b></td>
+    <td>DBT-GUARD selected for the Kerala Startup Mission Pre-Incubation Programme</td>
+  </tr>
+  <tr>
+    <td><b>Certifications</b></td>
+    <td>Google UX Design · Meta Front-End Development · NPTEL Python for Data Science (IIT Madras) · AWS Cloud Essentials · Java Spring Boot · Figma Mastery</td>
+  </tr>
+</table>
+
+<br/>
+
+## GitHub Stats
+
+<p align="center">
+  <img src="./assets/stats/overview.svg" width="49%" alt="GitHub activity: contributions, commits, pull requests and repositories" />
+  <img src="./assets/stats/languages.svg" width="49%" alt="Most-used languages" />
 </p>
 <p align="center">
-  <a href="https://github.com/AnnRosePT/Aquasense"><img src="./assets/px/card-aquasense.png" width="49%" alt="aquasense" /></a>
-  <a href="https://dbt-guard.vercel.app"><img src="./assets/px/card-dbt-guard.png" width="49%" alt="dbt-guard" /></a>
+  <img src="https://streak-stats.demolab.com?user=AnnRosePT&hide_border=true&border_radius=16&background=140C26&stroke=3B2A66&ring=9338C8&fire=C69AF5&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=C69AF5&sideLabels=D8C9ED&dates=9A86C4" width="70%" alt="Contribution streak" />
 </p>
 
-<p align="center"><sub>
-<a href="https://github.com/AnnRosePT/placed">PlacementAI</a> ·
-<a href="https://github.com/AnnRosePT/anavandi-connect">Anavandi Connect</a> (<a href="https://anavandi-connect.vercel.app">live</a>) ·
-<a href="https://github.com/AnnRosePT/Aquasense">AquaSense</a> ·
-<a href="https://github.com/AnnRosePT/DBT-GUARD">DBT-GUARD</a> (<a href="https://dbt-guard.vercel.app">live</a>) ·
-also <a href="https://github.com/AnnRosePT/FitnessBuddy-AgenticAI">Fitness Buddy</a> and <a href="https://github.com/AnnRosePT/IMPACT">LuminousCore</a>
-</sub></p>
+<br/>
 
-<img src="./assets/px/bar-skills.png" width="100%" alt="Skill set" />
-
-<div align="center">
-<table>
-  <tr><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=figma" width="40" height="40" alt="Figma" /><br/><sub>Figma</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=py" width="40" height="40" alt="Python" /><br/><sub>Python</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=java" width="40" height="40" alt="Java" /><br/><sub>Java</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=c" width="40" height="40" alt="C" /><br/><sub>C</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=js" width="40" height="40" alt="JavaScript" /><br/><sub>JavaScript</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=ts" width="40" height="40" alt="TypeScript" /><br/><sub>TypeScript</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=html" width="40" height="40" alt="HTML" /><br/><sub>HTML</sub></td></tr>
-  <tr><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=css" width="40" height="40" alt="CSS" /><br/><sub>CSS</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=react" width="40" height="40" alt="React" /><br/><sub>React</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=nextjs" width="40" height="40" alt="Next.js" /><br/><sub>Next.js</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=tailwind" width="40" height="40" alt="Tailwind" /><br/><sub>Tailwind</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=nodejs" width="40" height="40" alt="Node.js" /><br/><sub>Node.js</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=spring" width="40" height="40" alt="Spring" /><br/><sub>Spring</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=django" width="40" height="40" alt="Django" /><br/><sub>Django</sub></td></tr>
-  <tr><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=flask" width="40" height="40" alt="Flask" /><br/><sub>Flask</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=fastapi" width="40" height="40" alt="FastAPI" /><br/><sub>FastAPI</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=sklearn" width="40" height="40" alt="Sklearn" /><br/><sub>Sklearn</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=opencv" width="40" height="40" alt="OpenCV" /><br/><sub>OpenCV</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=postgres" width="40" height="40" alt="Postgres" /><br/><sub>Postgres</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=supabase" width="40" height="40" alt="Supabase" /><br/><sub>Supabase</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=git" width="40" height="40" alt="Git" /><br/><sub>Git</sub></td></tr>
-  <tr><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=github" width="40" height="40" alt="GitHub" /><br/><sub>GitHub</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=linux" width="40" height="40" alt="Linux" /><br/><sub>Linux</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=aws" width="40" height="40" alt="AWS" /><br/><sub>AWS</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=azure" width="40" height="40" alt="Azure" /><br/><sub>Azure</sub></td><td align="center" width="96"><img src="https://skillicons.dev/icons?theme=dark&i=vercel" width="40" height="40" alt="Vercel" /><br/><sub>Vercel</sub></td></tr>
-</table>
-</div>
-
-<img src="./assets/px/wins.png" width="100%" alt="Wins: 1st Runner-Up, PFRDA National Hackathon at IIT Kanpur (NPS Saathi); Top 10 of 300+, She Builds Tech 3.0 (KSUM); Top 32 of 400+, ANAVANDI Hackathon 2026; co-inventor of a published Indian patent, Guardian Wing. Certified: Google UX Design, Figma Mastery, Meta Front-End Development, NPTEL Python for Data Science, AWS Cloud Essentials, Java Spring Boot, Microsoft Elevate x AICTE Azure." />
+<p align="center"><sub>Building technology. Exploring possibilities. Creating impact.</sub></p>

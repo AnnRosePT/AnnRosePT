@@ -1,0 +1,17 @@
+{
+  "_note": "Offline placeholder only. The GitHub Action replaces these cards with live data on its first run.",
+  "total_contributions": 111,
+  "commits_this_year": 62,
+  "pull_requests": 1,
+  "issues": 0,
+  "public_repos": 31,
+  "stars": 0,
+  "languages": {
+    "C": 54.0,
+    "HTML": 19.8,
+    "TypeScript": 17.2,
+    "Python": 4.2,
+    "JavaScript": 3.9,
+    "CSS": 0.9
+  }
+}
