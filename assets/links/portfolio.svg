@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="40" viewBox="0 0 122 40" role="img" aria-label="Portfolio">
+  <rect x="0.75" y="0.75" width="120.5" height="38.5" rx="19.25" fill="#1A1230" stroke="#4A2F86" stroke-width="1.5"/>
+  <g transform="translate(17 11) scale(0.75)"><g fill="none" stroke="#C69AF5" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2c3 3.2 3 16.8 0 20M12 2c-3 3.2-3 16.8 0 20"/></g></g>
+  <text x="45" y="25" fill="#F1E9FC" font-family="'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500">Portfolio</text>
+</svg>
