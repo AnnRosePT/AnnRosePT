@@ -1,9 +1,9 @@
-<a href="https://annrosept.github.io/AnnRosePT/">
+<a href="https://annrosept.github.io/AnnRosePT/index.html">
   <img src="./assets/ann-rose-hero.svg" width="100%" alt="Hello, I'm Ann Rose P T. Software developer and UI/UX designer. 3D avatar of Ann waving." />
 </a>
 
 <p align="center">
-  <a href="https://annrosept.github.io/AnnRosePT/"><img src="./assets/links/card3d.svg" height="36" alt="Interactive 3D card" /></a>&nbsp;
+  <a href="https://annrosept.github.io/AnnRosePT/index.html"><img src="./assets/links/card3d.svg" height="36" alt="Interactive 3D card" /></a>&nbsp;
   <a href="https://ann-rose-pt007.vercel.app"><img src="./assets/links/portfolio.svg" height="36" alt="Portfolio" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/ann-rose-pt"><img src="./assets/links/linkedin.svg" height="36" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:annrosept007@gmail.com"><img src="./assets/links/email.svg" height="36" alt="Email" /></a>
