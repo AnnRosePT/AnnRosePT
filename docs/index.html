@@ -40,7 +40,7 @@
 
   /* 3D card */
   .stage{perspective:1100px;display:flex;justify-content:center}
-  .card{position:relative;width:min(380px,82vw);aspect-ratio:1;transform-style:preserve-3d;cursor:pointer;
+  .card{position:relative;width:min(360px,74vw);aspect-ratio:4/5;transform-style:preserve-3d;cursor:pointer;
     transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .45s cubic-bezier(.2,.7,.2,1)}
   .card.live{transition:transform .08s linear}
   .face{position:absolute;inset:0;padding:12px;background:#5c35a0;
@@ -95,7 +95,7 @@
   <div class="stage">
     <div class="card" id="card" role="img" aria-label="3D avatar of Ann Rose P T waving">
       <div class="face"><div class="art">
-        <img class="bg" src="card_sq.jpg" alt="" />
+        <img class="bg" src="card_45.jpg" alt="" />
         <img class="hand" id="hand" src="hand.png" alt="" />
       </div></div>
       <div class="glare"></div>
@@ -116,10 +116,10 @@
   const xp = document.getElementById('xp');
 
   // hand placement inside the square crop (from the source poster geometry)
-  const SQ = [70, 40, 792, 762], HB = [116, 283, 310, 525], PV = [170, 522], S = SQ[2] - SQ[0];
+  const SQ = [0, 20, 792, 1010], HB = [116, 283, 310, 525], PV = [170, 522], SW = SQ[2] - SQ[0], SH = SQ[3] - SQ[1];
   Object.assign(hand.style, {
-    left: ((HB[0] - SQ[0]) / S * 100) + '%', top: ((HB[1] - SQ[1]) / S * 100) + '%',
-    width: ((HB[2] - HB[0]) / S * 100) + '%', height: ((HB[3] - HB[1]) / S * 100) + '%',
+    left: ((HB[0] - SQ[0]) / SW * 100) + '%', top: ((HB[1] - SQ[1]) / SH * 100) + '%',
+    width: ((HB[2] - HB[0]) / SW * 100) + '%', height: ((HB[3] - HB[1]) / SH * 100) + '%',
     transformOrigin: ((PV[0] - HB[0]) / (HB[2] - HB[0]) * 100) + '% ' + ((PV[1] - HB[1]) / (HB[3] - HB[1]) * 100) + '%'
   });
 
