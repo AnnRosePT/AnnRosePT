@@ -21,13 +21,13 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets" / "stats"
 
 # Brand palette
-BG = "#101014"
-BORDER = "#2A1F44"
-TITLE = "#C69AF5"
-TEXT = "#D8C9ED"
+BG = "#18181D"
+BORDER = "#34343E"
+TITLE = "#ECECF0"
+TEXT = "#B4B4C0"
 WHITE = "#FFFFFF"
-MUTED = "#9A8BB5"
-LANG_COLORS = ["#9338C8", "#C69AF5", "#6A3FC4", "#E2C8FF", "#4B2A99", "#B07CE8"]
+MUTED = "#80808C"
+LANG_COLORS = ["#B084F0", "#E4E4EA", "#8A8A98", "#5E5E6C", "#C9B6EE", "#3E3E4A"]
 FONT = "'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif"
 
 
@@ -93,7 +93,6 @@ def card(width, height, title, body):
     </linearGradient>
   </defs>
   <rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="16" fill="{BG}" stroke="{BORDER}"/>
-  <rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="16" fill="url(#glow)"/>
   <text x="28" y="42" fill="{TITLE}" font-family="{FONT}" font-size="17" font-weight="600" letter-spacing="0.3">{escape(title)}</text>
 {body}
 </svg>
@@ -112,7 +111,7 @@ def overview_svg(s):
     for i, (label, value) in enumerate(rows):
         y = 82 + i * 28
         body.append(
-            f'  <circle cx="34" cy="{y-5}" r="3.5" fill="#9338C8"/>\n'
+            f'  <circle cx="34" cy="{y-5}" r="3" fill="#B084F0"/>\n'
             f'  <text x="48" y="{y}" fill="{TEXT}" font-family="{FONT}" font-size="14">{label}</text>\n'
             f'  <text x="392" y="{y}" fill="{WHITE}" font-family="{FONT}" font-size="14" font-weight="600" text-anchor="end">{value:,}</text>'
         )

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="193" height="40" viewBox="0 0 193 40" role="img" aria-label="Interactive 3D card">
+  <rect x="0.75" y="0.75" width="191.5" height="38.5" rx="19.25" fill="#1C1C22" stroke="#3A3A45" stroke-width="1.5"/>
+  <g transform="translate(17 11) scale(0.75)"><g fill="none" stroke="#C9C9D3" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M3 7l9 5 9-5M12 12v10"/></g></g>
+  <text x="45" y="25" fill="#ECECF0" font-family="'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500">Interactive 3D card</text>
+</svg>

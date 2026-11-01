@@ -1,17 +1,10 @@
-<p align="center">
-  <img src="./assets/ann-rose-hero.svg" width="100%" alt="Hi, I'm Ann Rose P T – Computer Science Engineering Student. 3D avatar of Ann waving in a purple cap and hoodie." />
-</p>
-
-<h3 align="center">AI/ML &nbsp;|&nbsp; Software Development &nbsp;|&nbsp; Cybersecurity</h3>
+<a href="https://annrosept.github.io/AnnRosePT/">
+  <img src="./assets/ann-rose-hero.svg" width="100%" alt="Hello, I'm Ann Rose P T. Software developer and UI/UX designer. 3D avatar of Ann waving." />
+</a>
 
 <p align="center">
-  B.Tech Computer Science and Engineering · Christ College of Engineering, Irinjalakuda, Kerala<br/>
-  <i>Building technology. Exploring possibilities. Creating impact.</i>
-</p>
-
-<p align="center">
+  <a href="https://annrosept.github.io/AnnRosePT/"><img src="./assets/links/card3d.svg" height="36" alt="Interactive 3D card" /></a>&nbsp;
   <a href="https://ann-rose-pt007.vercel.app"><img src="./assets/links/portfolio.svg" height="36" alt="Portfolio" /></a>&nbsp;
-  <a href="https://github.com/AnnRosePT"><img src="./assets/links/github.svg" height="36" alt="GitHub" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/ann-rose-pt"><img src="./assets/links/linkedin.svg" height="36" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:annrosept007@gmail.com"><img src="./assets/links/email.svg" height="36" alt="Email" /></a>
 </p>
@@ -20,33 +13,45 @@
 
 ## About Me
 
-- Computer Science Engineering undergraduate (B.Tech, 2024–2028) with a CGPA of 8.5.
-- Interested in AI, Machine Learning and Software Engineering.
-- Exploring Cybersecurity and Ethical Hacking, with hands-on Kali Linux lab work.
-- Building practical full-stack and AI-powered projects, from ML web apps to embedded dashboards.
-- Interested in solving real-world problems through technology.
+I'm a B.Tech Computer Science student at Christ College of Engineering, Irinjalakuda (2024–2028, CGPA 8.5). I like working on both sides of a product: writing the code that makes it work and designing how it looks and feels.
 
-**Currently:** Data Analytics Intern at VOIS (Vodafone Intelligent Solutions) · Python Developer Intern at Infosys Springboard
+- Building full-stack and AI-powered apps with Python, React, Django and Spring Boot.
+- Designing UI/UX in Figma, plus posters, newsletters and event visuals for campus teams.
+- Currently a Data Analytics Intern at VOIS and a Python Developer Intern at Infosys Springboard.
+- Happiest when a project solves a real problem for real people.
+
+<br/>
+
+## UI/UX & Poster Design
+
+Design is a big part of how I work, not an afterthought.
+
+- **Design Team Lead**, IEEE EMBS, Christ College of Engineering: posters and visuals for the chapter's events.
+- **Design team**, UPDATE, the CSE department newsletter: layout and visual design.
+- **UI/UX:** wireframes, prototypes and app screens in Figma, including the interfaces for my own projects below.
+- **Training:** Google UX Design certificate · BCG X UI/UX job simulation · Figma Mastery
+
+<img src="https://skillicons.dev/icons?i=figma&theme=dark" height="40" alt="Figma" />
 
 <br/>
 
 ## Technical Skills
 
 **Languages**<br/>
-<img src="https://skillicons.dev/icons?i=py,java,c,js,ts&theme=dark" height="44" alt="Python, Java, C, JavaScript, TypeScript" />
+<img src="https://skillicons.dev/icons?i=py,java,c,js,ts&theme=dark" height="40" alt="Python, Java, C, JavaScript, TypeScript" />
 
 **Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind&theme=dark" height="44" alt="HTML, CSS, React, Next.js, Tailwind CSS" />
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind&theme=dark" height="40" alt="HTML, CSS, React, Next.js, Tailwind CSS" />
 
 **Backend**<br/>
-<img src="https://skillicons.dev/icons?i=spring,django,flask,fastapi,nodejs&theme=dark" height="44" alt="Spring Boot, Django, Flask, FastAPI, Node.js" />
+<img src="https://skillicons.dev/icons?i=spring,django,flask,fastapi,nodejs&theme=dark" height="40" alt="Spring Boot, Django, Flask, FastAPI, Node.js" />
 
 **AI / ML & Data**<br/>
-<img src="https://skillicons.dev/icons?i=py,sklearn,opencv&theme=dark" height="44" alt="Python, scikit-learn, OpenCV" />
+<img src="https://skillicons.dev/icons?i=py,sklearn,opencv&theme=dark" height="40" alt="Python, scikit-learn, OpenCV" />
 <br/><sub>NumPy · Pandas · MediaPipe · Generative AI · LangFlow · IBM watsonx</sub>
 
-**Tools, Cloud & Security**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,linux,kali,postgres,supabase,aws,azure,figma&theme=dark" height="44" alt="Git, GitHub, Linux, Kali Linux, PostgreSQL, Supabase, AWS, Azure, Figma" />
+**Tools & Cloud**<br/>
+<img src="https://skillicons.dev/icons?i=git,github,linux,postgres,supabase,aws,azure&theme=dark" height="40" alt="Git, GitHub, Linux, PostgreSQL, Supabase, AWS, Azure" />
 
 <br/>
 
@@ -79,7 +84,7 @@
   <img src="./assets/stats/languages.svg" width="49%" alt="Most-used languages" />
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=AnnRosePT&hide_border=true&border_radius=16&background=101014&stroke=382078&ring=9338C8&fire=C69AF5&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=C69AF5&sideLabels=D8C9ED&dates=9A8BB5" width="70%" alt="Contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=AnnRosePT&hide_border=true&border_radius=16&background=18181D&stroke=34343E&ring=B084F0&fire=B084F0&currStreakNum=ECECF0&sideNums=ECECF0&currStreakLabel=ECECF0&sideLabels=B4B4C0&dates=80808C" width="70%" alt="Contribution streak" />
 </p>
 
 <br/>
@@ -93,16 +98,15 @@
 
 ## Certifications
 
-NPTEL Python for Data Science (IIT Madras) · Google UX Design · Meta Front-End Development · AWS Cloud Essentials · Java Spring Boot (IPLUS) · Figma Mastery · Microsoft Elevate × AICTE Cloud Computing (Azure)
+Google UX Design · Figma Mastery · Meta Front-End Development · NPTEL Python for Data Science (IIT Madras) · AWS Cloud Essentials · Java Spring Boot (IPLUS) · Microsoft Elevate × AICTE Cloud Computing (Azure)
 
 <br/>
 
 ## What I'm Exploring
 
-- Artificial Intelligence
-- Machine Learning
+- Artificial Intelligence and Machine Learning
 - Full Stack Engineering
-- Cybersecurity
+- UI/UX and visual design
 - Building useful technology products
 
 <br/>
