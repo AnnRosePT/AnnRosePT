@@ -1,0 +1,34 @@
+name: 3D contribution city
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["profile-3d-contrib/**"]
+  schedule:
+    - cron: "41 18 * * *"   # daily, ~00:11 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-3d
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/settings/3d-contrib.json
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          git diff --cached --quiet || git commit -m "chore: refresh 3D contribution city"
+          git pull --rebase origin main && git push

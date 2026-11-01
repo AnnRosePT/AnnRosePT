@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-ann.svg",
+  "backgroundColor": "#232129",
+  "foregroundColor": "#d9d5e0",
+  "strongColor": "#f1ece3",
+  "weakColor": "#7d7889",
+  "radarColor": "#f0a477",
+  "growingAnimation": true,
+  "contribColors": ["#34303f", "#4a3d78", "#6a54b0", "#9a82dc", "#d4c4f7"]
+}
