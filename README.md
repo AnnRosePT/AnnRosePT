@@ -7,6 +7,7 @@
   <a href="https://www.linkedin.com/in/ann-rose-pt"><img src="./assets/mc/btn-linkedin.png" height="48" alt="LinkedIn" /></a>
   <a href="mailto:annrosept007@gmail.com"><img src="./assets/mc/btn-email.png" height="48" alt="Email" /></a>
   <a href="https://annrosept.github.io/AnnRosePT/index.html"><img src="./assets/mc/btn-card3d.png" height="48" alt="Interactive 3D card" /></a>
+  <a href="https://annrosept.github.io/AnnRosePT/Ann_Rose_PT_Resume.pdf"><img src="./assets/mc/btn-resume.png" height="48" alt="Resume (PDF)" /></a>
 </p>
 
 <img src="./assets/mc/h-about.png" width="100%" alt="About" />
