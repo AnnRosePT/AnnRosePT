@@ -9,6 +9,10 @@
   <a href="mailto:annrosept007@gmail.com"><img src="./assets/links/email.svg" height="36" alt="Email" /></a>
 </p>
 
+<p align="center">
+  <b>1st Runner-Up, PFRDA National Hackathon at IIT Kanpur</b> for <i>NPS Saathi</i>, an AI-native multilingual pension copilot
+</p>
+
 <br/>
 
 ## About Me
@@ -91,7 +95,7 @@ Design is a big part of how I work, not an afterthought.
 
 ## Achievements
 
-- **1st Runner-Up**, PFRDA National Hackathon, IIT Kanpur, for *NPS Saathi*, an AI-native multilingual pension copilot.
+- **1st Runner-Up, PFRDA National Hackathon, IIT Kanpur**, for *NPS Saathi*, a GenAI copilot giving personalised, multilingual guidance on the National Pension System. Earned 6 months of industry mentorship and internship opportunities.
 - **Top 10 of 300+ teams**, She Builds Tech 3.0, Kerala Startup Mission (2026), for *DBT-GUARD*.
 - **Top 32 of 400+ teams**, ANAVANDI Hackathon 2026, Jain School of Future Technology; deployed a live prototype in the qualifier.
 - **Co-inventor**, published Indian patent *Guardian Wing: Collaborative Fleet Intelligence System* (App. No. 202641048328).
