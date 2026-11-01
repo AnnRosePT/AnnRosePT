@@ -11,14 +11,14 @@
 
 <img src="./assets/mc/h-about.png" width="100%" alt="About" />
 
-<img src="./assets/mc/about.png" width="100%" alt="Player profile. B.Tech CSE, Christ College of Engineering, Irinjalakuda (2024–2028). Builds AI/ML and software solutions, from GenAI assistants to machine-learning web apps. Develops full-stack applications with React, Spring Boot, Django and FastAPI. Designs UI/UX and visual communication; Design Team Lead at IEEE EMBS, CCE. Explores cybersecurity and innovation through hands-on labs, hackathons and a published patent." />
+<img src="./assets/mc/about.png" width="100%" alt="Player profile. B.Tech CSE, Christ College of Engineering, Irinjalakuda (2024–2028), CGPA 8.5. Builds AI-driven and full-stack applications with Python, React, Django and Spring Boot. Works with Generative AI, computer vision and data analysis: OpenCV, MediaPipe, Langflow, IBM watsonx. Data Analytics Intern at VOIS and Python Developer Intern at Infosys Springboard. Designs UI/UX and visuals in Figma; Design Team Lead at IEEE EMBS, CCE." />
 
 <img src="./assets/mc/toast.png" width="100%" alt="Challenge Complete! 1st Runner-Up, PFRDA National Hackathon, IIT Kanpur, for NPS Saathi, an AI-native multilingual pension copilot." />
 
 <img src="./assets/mc/h-stack.png" width="100%" alt="Tech stack" />
 
 <p align="center">
-  <img src="./assets/mc/inventory.png" width="80%" alt="Tech stack inventory. Programming: Python, C, C++, Java, JavaScript. Frontend: React, HTML, CSS. Backend: Spring Boot, FastAPI, Django. AI/ML: NumPy, Pandas, Scikit-learn. Tools: Git, GitHub, Linux, MySQL, Figma." />
+  <img src="./assets/mc/inventory.png" width="80%" alt="Tech stack inventory. Languages: Python, JavaScript, C, Java. Web: React, Node.js, HTML, CSS. Backend: Django, Spring Boot. AI and data: OpenCV, MediaPipe, Pandas, Scikit-learn. Cloud and tools: Azure, AWS, Git, GitHub, Linux, Figma." />
 </p>
 
 <img src="./assets/mc/h-projects.png" width="100%" alt="Featured projects" />
