@@ -24,6 +24,10 @@
     transform:rotate(-14deg);animation:pulse .55s ease-in-out infinite alternate;white-space:nowrap}
   @keyframes pulse{from{transform:rotate(-14deg) scale(.94)}to{transform:rotate(-14deg) scale(1.06)}}
   .sub{font-weight:700;font-size:clamp(18px,2.2vw,24px);margin:30px 0 8px;text-shadow:3px 3px 0 #2a1748}
+.pr{color:#9a6ad6}
+  .caret{display:inline-block;width:.55em;height:.9em;margin-left:4px;vertical-align:-.08em;background:#e9dcff;animation:blink 1s step-end infinite}
+  @keyframes blink{50%{opacity:0}}
+  .sub{min-height:1.4em}
   .sub2{color:#cbb8ef;font-size:17px;text-shadow:2px 2px 0 #120a24}
   .toast{display:flex;gap:16px;align-items:center;background:var(--panel);margin:26px 0;padding:14px 18px;max-width:520px;
     box-shadow:inset 0 0 0 3px var(--edge),inset 0 0 0 6px #8a5cc5,inset 0 0 0 9px #3a2363}
@@ -79,7 +83,7 @@
 <main>
   <section>
     <h1 class="logo">ANN ROSE P T<span class="splash">Code + Design!</span></h1>
-    <p class="sub">AI/ML &amp; Software Developer &middot; UI/UX Designer</p>
+    <p class="sub" aria-label="AI/ML &amp; Software Developer, UI/UX &amp; Poster Designer, Full-Stack App Builder"><span class="pr">&gt; </span><span id="type">AI/ML &amp; Software Developer</span><i class="caret"></i></p>
     <p class="sub2">B.Tech CSE &middot; Christ College of Engineering, Kerala</p>
     <div class="toast"><div class="ic" aria-hidden="true">&#127942;</div>
       <div><b>Challenge Complete!</b><span>1st Runner-Up &middot; PFRDA National Hackathon, IIT Kanpur</span></div></div>
@@ -123,6 +127,20 @@
     transformOrigin: ((PV[0] - HB[0]) / (HB[2] - HB[0]) * 100) + '% ' + ((PV[1] - HB[1]) / (HB[3] - HB[1]) * 100) + '%'
   });
 
+  // ---------- typewriter
+  const roles = ['AI/ML & Software Developer', 'UI/UX & Poster Designer', 'Full-Stack App Builder'];
+  const tEl = document.getElementById('type');
+  if (!reduce) {
+    let r = 0, i = 0, del = false; tEl.textContent = '';
+    (function step() {
+      const word = roles[r];
+      i += del ? -1 : 1; tEl.textContent = word.slice(0, i);
+      let wait = del ? 30 : 75;
+      if (!del && i === word.length) { del = true; wait = 1800; }
+      else if (del && i === 0) { del = false; r = (r + 1) % roles.length; wait = 350; }
+      setTimeout(step, wait);
+    })();
+  }
   // ---------- 3D tilt
   const MAX = 16;
   function tilt(nx, ny) {
