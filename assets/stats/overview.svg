@@ -8,10 +8,10 @@
   <text x="24" y="42" fill="#ffffff" font-size="22" font-weight="700">Statistics</text>
   <rect x="26" y="67" width="8" height="8" fill="#7c7c7c"/>
   <text x="44" y="78" fill="#cfcfcf" font-size="16">Total contributions</text>
-  <text x="394" y="78" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">148</text>
+  <text x="394" y="78" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">153</text>
   <rect x="26" y="92" width="8" height="8" fill="#7c7c7c"/>
   <text x="44" y="103" fill="#cfcfcf" font-size="16">Commits this year</text>
-  <text x="394" y="103" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">93</text>
+  <text x="394" y="103" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">98</text>
   <rect x="26" y="117" width="8" height="8" fill="#7c7c7c"/>
   <text x="44" y="128" fill="#cfcfcf" font-size="16">Pull requests</text>
   <text x="394" y="128" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">1</text>
@@ -20,8 +20,8 @@
   <text x="394" y="153" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">36</text>
   <rect x="26" y="167" width="8" height="8" fill="#7c7c7c"/>
   <text x="44" y="178" fill="#cfcfcf" font-size="16">Current streak</text>
-  <text x="394" y="178" fill="#d6d6d6" font-size="16" font-weight="700" text-anchor="end">6 days</text>
+  <text x="394" y="178" fill="#d6d6d6" font-size="16" font-weight="700" text-anchor="end">7 days</text>
   <rect x="26" y="192" width="8" height="8" fill="#7c7c7c"/>
   <text x="44" y="203" fill="#cfcfcf" font-size="16">Longest streak</text>
-  <text x="394" y="203" fill="#d6d6d6" font-size="16" font-weight="700" text-anchor="end">6 days</text>
+  <text x="394" y="203" fill="#d6d6d6" font-size="16" font-weight="700" text-anchor="end">7 days</text>
 </svg>
