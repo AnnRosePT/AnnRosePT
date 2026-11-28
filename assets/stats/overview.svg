@@ -20,7 +20,7 @@
   <text x="394" y="153" fill="#ffffff" font-size="16" font-weight="700" text-anchor="end">39</text>
   <rect x="26" y="167" width="8" height="8" fill="#7c7c7c"/>
   <text x="44" y="178" fill="#cfcfcf" font-size="16">Current streak</text>
-  <text x="394" y="178" fill="#d6d6d6" font-size="16" font-weight="700" text-anchor="end">1 days</text>
+  <text x="394" y="178" fill="#d6d6d6" font-size="16" font-weight="700" text-anchor="end">0 days</text>
   <rect x="26" y="192" width="8" height="8" fill="#7c7c7c"/>
   <text x="44" y="203" fill="#cfcfcf" font-size="16">Longest streak</text>
   <text x="394" y="203" fill="#d6d6d6" font-size="16" font-weight="700" text-anchor="end">14 days</text>
